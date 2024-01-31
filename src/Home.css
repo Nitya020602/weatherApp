@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Laila&display=swap');
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+.App h1{
+  font-family: 'Laila', serif;
+}
+.bar{
+  display: flex;
+  width: 60%;
+  justify-content: space-between;
+}
+.searchCont{
+  display:flex;
+  background-color: white;
+  height: 2rem;
+  width: 40%;
+  border-radius: 10px;
+  justify-content: space-between;
+  align-items: center;
+}
+.searchCont input{
+  width: 85%;
+  margin: 0 1rem;
+  border: none;
+  outline: none;
+}
+.searchCont button{
+  border: none;
+  cursor: pointer;
+  font-size: 1.5rem;
+  background:none;
+  margin-right: 0.4rem ;
+  margin-top: 0.3rem;
+}
+.toggle{
+  display: flex;
+  align-items: center;
+  background-color:gray ;
+  border-radius: 8px;
+  overflow: hidden;
+  width: max-content;
+}
+.toggle button{
+  cursor: pointer;
+  border: none;
+  background: none;
+  font-size: 1rem;
+  padding: 10px;
+  color: #fff;
+  transition: background-color 0.5s ease;
+}
+
+.toggle button.active {
+  background-color: #652bb2; 
+  border-radius: 5px;
+  color: #fff;
+}
+
+.toggle.slide {
+  transition: transform 0.5s ease;
+}
+
+.toggle.slide button {
+  transition: transform 0.5s ease;
+}
+
+.toggle.slide button:first-child {
+  transform: translateX(0%);
+}
+
+.toggle.slide button:last-child {
+  transform: translateX(100%);
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.home{
+  border: 1px solid white;
+  border-radius: 10px;
+  box-shadow: 3px;
+  width:60%;
+  margin-top: 1.5rem;
+  box-shadow: 5px 5px rgb(174, 173, 173);
+}
+@media screen and (max-width:940px) {
+
+  .home{
+    width: 80%;
+  }
+  .bar{
+    width: 80%;
+  }
+}
+@media screen and (max-width:650px){
+  .bar{
+    height: 1.5rem;
+  }
+  .searchCont{
+    height: 1.5rem;
+  }
+}
+@media screen and (max-width:600px) {
+  .App h1{
+    font-size: 25px;
+  }
+  .toggle button{
+    font-size: small;
+  }
+}
+@media screen and (max-width:460px) {
+  .App h1{
+    font-size: 20px;
+  }
+  .home{
+    width: 90%;
+  }
+  .toggle{
+    width: 50%;
+  }
+  .toggle button{
+    font-size: x-small;
+  }
+  .searchCont{
+    height: 1.45rem;
+  }
+  .searchCont button{
+    font-size: 1.1rem;
+  }
+}

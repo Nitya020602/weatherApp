@@ -1,0 +1,24 @@
+.container{
+    display: flex;
+    justify-content: space-evenly;
+}
+.arrow{
+    display: none;
+}
+@media screen and (max-width:460px) {
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .top{
+        margin-top: 4.5rem;
+    }
+    .arrow{
+        display: flex;
+        font-size: 3rem;
+        margin-top: 1.5rem;
+        color: white;
+    }
+}

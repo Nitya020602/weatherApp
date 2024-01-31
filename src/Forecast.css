@@ -1,0 +1,65 @@
+.foreCast h2{
+    color: rgb(127, 82, 169);
+}
+.data{
+    text-align: left;
+    margin-bottom: 1.5rem;
+    color: white;
+    text-shadow: 0 0.2rem 0.25rem rgba(0, 0, 0, 0.2);
+}
+.day{
+    font-size: x-small;
+    font-weight: bold;
+    border: 1px solid rgb(183, 178, 178);
+    border-radius:10px;
+    margin-bottom: 4px;
+    line-height: 1.5rem;
+    box-shadow: 0 0.2rem 0.25rem rgba(0, 0, 0, 0.2);
+}
+.avg{
+    display: flex;
+    margin-left:2.5rem ;
+}
+.desc{
+    display: flex;
+    align-items: center;
+    margin-top: -0.75rem;
+    margin-left: 2.5rem;
+}
+.desc img{
+    margin-left: 1rem;
+    width: 2rem;
+    height: 2rem;
+}
+.desc p{
+    margin-left: 2rem;
+    font-size: small;
+}
+.desc .temperature{
+    font-size: medium;
+}
+@media screen and (max-width:1053px){
+    .data{
+        margin-top: -0.5rem;
+    }
+    .desc{
+        margin-top: -1.5rem;
+    }
+}
+@media screen and (max-width:650px) {
+    .foreCast h2{
+        display: flex;
+        justify-content: center;
+        font-size: large;
+    }
+    .day{
+        font-size: x-small;
+    }
+    .desc{
+        margin-top: -1.5rem;
+    }
+    .desc p{
+        margin-left: 1rem;
+        font-size: x-small;
+    }
+}

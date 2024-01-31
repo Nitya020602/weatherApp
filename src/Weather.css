@@ -1,0 +1,55 @@
+.weather h2{
+    color: rgb(127, 82, 169);
+}
+.currdata{
+    font-weight: 500;
+    color: white;
+    text-shadow: 0 0.2rem 0.25rem rgba(0, 0, 0, 0.2);
+    line-height: 1rem;
+}
+.place{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+}
+.place .pin{
+    margin-right: 0.6rem;
+}
+.temp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.temp p {
+    font-size: xx-large;
+}
+.icon{
+    width: 4rem;
+    height: 4rem;
+}
+.info{
+    font-size: small;
+}
+@media screen and (max-width:650px) {
+    .weather h2{
+        display: flex;
+        justify-content: center;
+        font-size: large;
+    }
+    .place{
+        font-size: large;
+    }
+    .temp p{
+        font-size: large;
+    }
+    .icon{
+        width: 3.5rem;
+        height: 3.5rem;
+    }
+}
+@media screen and (max-width:450px){
+    .place{
+        font-size: x-large;
+    }
+}
