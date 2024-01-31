@@ -33,16 +33,19 @@ npm start
 # or
 yarn start
 ```
+
 2.Open your browser and visit http://localhost:3000.
 
+
 3.Enter a city name in the search bar and click the search button.
+
 
 4.Toggle between Celsius and Fahrenheit scales using the provided buttons.
 
 
 ### Built With
-React - JavaScript library for building user interfaces
-Axios - Promise-based HTTP client for making API requests
+1.React - JavaScript library for building user interfaces
+2.Axios - Promise-based HTTP client for making API requests
 (Add other dependencies/tools used)
 
 ### Contributing
