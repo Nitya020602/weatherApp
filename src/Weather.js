@@ -6,7 +6,6 @@ import { HiOutlineMapPin } from 'react-icons/hi2';
 const Weather = ({ city }) => {
   const [currentWeather, setCurrentWeather] = useState(null);
   useEffect(() => {
-    // Replace 'YOUR_API_KEY' with your OpenWeatherMap API key
     const apiKey = 'ae0761fb42ce521d66ceaf54f7190240';
     const apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
 
