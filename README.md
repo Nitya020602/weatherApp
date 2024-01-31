@@ -15,7 +15,7 @@ This Weather App allows users to check the current weather and a 5-day forecast 
 
 ```bash
 git clone https://github.com/your-username/your-weather-app.git
-
+```
 2.Navigate to the project directory:
 
 cd your-weather-app
