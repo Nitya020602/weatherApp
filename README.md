@@ -53,12 +53,22 @@ yarn start
 ### Contributing
 If you'd like to contribute to this project, please follow these guidelines:
 
-Fork the repository.
-1.Create a new branch (git checkout -b feature/your-feature-name).
-2.Make your changes.
-3.Commit your changes (git commit -m 'Add your feature').
-4.Push to the branch (git push origin feature/your-feature-name).
-5.Create a new pull request.
+1.Fork the repository.
+
+
+2.Create a new branch (git checkout -b feature/your-feature-name).
+
+
+3.Make your changes.
+
+
+4.Commit your changes (git commit -m 'Add your feature').
+
+
+5.Push to the branch (git push origin feature/your-feature-name).
+
+
+6.Create a new pull request.
 
 ### License
 This project is licensed under the MIT License - see the LICENSE.md file for details.
